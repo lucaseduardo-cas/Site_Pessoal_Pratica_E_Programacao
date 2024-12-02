@@ -359,18 +359,18 @@ form + .message {
     max-width: 100%;
 }
 
+/* Define caixas para cada evento da linha do tempo, com alinhamento alternado. */
 .timeline-container::after {
     content: " ";
     position: absolute;
     width: 2px;
-    height: 680px;
+    height: 700px;
     border-radius: 5px;
     left: 50%;
-    top: -2%;
+    top: 45px;
     background-color: #5c2909;
 }
 
-/* Define caixas para cada evento da linha do tempo, com alinhamento alternado. */
 .timeline-container .box {
     margin: 40px;
     color: #ccc;
@@ -399,7 +399,7 @@ form + .message {
     background-color: #fd0356;
     position: absolute;
     left: 444px; /* Centraliza o ponto no meio da linha */
-    bottom: 180px; /* Ajusta o alinhamento do ponto ao centro */
+    bottom: 180;; /* Ajusta o alinhamento do ponto ao centro */
     z-index: 1;
 }
 
@@ -417,9 +417,10 @@ form + .message {
     padding: 20px;
     background-color: #5c2909;
     width: 400px;
-    border-radius: 8px;
+    border-radius: 2px;
     cursor: pointer;
     box-shadow: 2px 2px 20px #00000088;
+    border-radius: 8px;
 }
 
 .content h3 {
@@ -429,6 +430,8 @@ form + .message {
     margin-bottom: 5px;
 }
 
+/*commit*/
 .content p {
     font-size: 14px;
+
 }
