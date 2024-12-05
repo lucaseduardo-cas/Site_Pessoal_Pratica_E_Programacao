@@ -214,9 +214,9 @@ form label {
     padding: 15px;
     border-radius: 50px;
     text-align: center;
-    margin-bottom: 15px; /* Espaço entre mensagem e outros elementos */
-    animation: slideUp 0.5s ease-out forwards; /* Animação ao aparecer */
-    opacity: 0; /* Invisível inicialmente */
+    margin-bottom: 15px; 
+    animation: slideUp 0.5s ease-out forwards; 
+    opacity: 0; 
 }
 
 /* Estilo básico para mensagens */
@@ -233,7 +233,7 @@ form label {
 /* Estilo para mensagens de sucesso */
 .message.success {
     background-color: #d4edda;
-    color: #155724; /* Texto em verde escuro */
+    color: #155724; 
     border-radius: 50px;
     font-weight: bold;
 }
@@ -241,23 +241,23 @@ form label {
 /* Container centralizado da página */
 .central-container {
     position: relative;
-    min-height: 100vh; /* Garante altura mínima para a tela */
+    min-height: 100vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border-radius: 50px; /* Arredonda as bordas */
-    overflow: hidden; /* Conteúdo respeita o border-radius */
+    border-radius: 50px; 
+    overflow: hidden; 
 }
 
 /* Estilização da área das mensagens */
 .message-container {
-    position: absolute; /* Posicionamento absoluto para controle */
-    top: 84%; /* Ajusta a posição vertical */
-    left: 50%; /* Ajusta a posição horizontal */
-    transform: translate(-50%, -50%); /* Centraliza perfeitamente */
-    width: 300px; /* Define largura */
-    z-index: 10; /* Sobrepõe outros elementos */
+    position: absolute; 
+    top: 84%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    width: 300px; 
+    z-index: 10; 
 }
 
 /* Botão de voltar com animação */
